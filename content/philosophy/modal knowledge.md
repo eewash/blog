@@ -1,6 +1,6 @@
 ---
 title: "Modal Knowledge"
-date: 2019-05-24T22:00:53-07:00
+date: 2019-05-24T22:07:52-07:00
 draft: true
 ---
 
