@@ -1,0 +1,71 @@
+baseURL = "http://omegaplusone.com/"
+languageCode = "en-us"
+title = "ω + 1"
+theme = "ev"
+
+pluralizelisttitles = false
+math = true
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-123-45"
+disqusShortname = "localhost"
+
+[params]
+	subtitle = "philosophy, mathematics, and other joys"
+	# Number of posts to show in recent posts list.
+	recentPostsCount = 10
+	# Content types which are excluded from recent posts and archive page.
+	excludedTypes = ["page"]
+	# disableDisqusTypes = ["page"]
+	featherIconsCDN = true
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+name = "Philosophy"
+url = "/philosophy"
+weight = 5
+
+[[menu.main]]
+name = "Mathematics"
+url = "/mathematics"
+weight = 6
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/eewash"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/evanewashington"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"
