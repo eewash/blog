@@ -1,7 +1,7 @@
 baseURL = "http://omegaplusone.com/"
 languageCode = "en-us"
 title = "ω + 1"
-theme = "ev"
+theme = "blog-theme"
 
 pluralizelisttitles = false
 math = true
