@@ -1,4 +1,4 @@
-baseURL = "http://omegaplusone.com/"
+baseURL = "https://omegaplusone.com/"
 languageCode = "en-us"
 title = "ω + 1"
 theme = "blog-theme"
