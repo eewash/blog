@@ -32,9 +32,7 @@ This real is only as specifiable as the function we chose to enumerate the compu
  
 List all the definable reals (for your choice of countable langauge) and run a diagonalization argument. The real you "specify" by this procedure isn't definable. It's no more specifiable than the function enumerating the definable reals. It seems as though we get a specification "for free" by running a diagonalization, but really, we've helped ourselves to the specification at the very beginning of the argument. 
 
-So in order to argue that, via the diagonalization argument, we get a specification of a new real number, we would first need a specification of the function enumerating the reals we want to run a diagonalization on. Just as I haven't named anything when I make my proclamation about Fred being a blue book on the table (since there are two possible options), I haven't specified a real number until I specify which enumeration of the definable/countable reals I want (since there are uncountably many bijections \\(f: \mathbb{N} \to \mathbb{N}\\), there are uncountably many options).
-
-In the next post, I'll talk more about how this applies to objectual and substitutional quantification. 
+So in order to argue that, via the diagonalization argument, we get a specification of a new real number, we would first need a specification of the function enumerating the reals we want to run a diagonalization on. Just as I haven't named anything when I make my proclamation about Fred being a blue book on the table (since there are two possible options), I haven't specified a real number until I specify which enumeration of the definable/countable reals I want (since there are uncountably many bijections \\(f: \mathbb{N} \to \mathbb{N}\\), there are uncountably many options). If Hugly and Sayward are willing to say that freely adjoining a new constant to the language does not count as naming, they should say the same thing about their "specifiable-by-diagonalization" scheme. 
 
 
 
