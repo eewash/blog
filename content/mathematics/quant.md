@@ -1,5 +1,5 @@
 ---
-title: "Diagonalization, Quantification, and Definability"
+title: "Two Ways to Quantify, I"
 date: 2019-09-08T20:12:23-07:00
 draft: false
 ---
@@ -30,6 +30,6 @@ We can run the standard diagonalization argument on the computable reals. Take a
 
 This real is only as specifiable as the function we chose to enumerate the computable reals. No computable function could do that, or else the new real we "specified" would be computable. So the set of computable reals (or rather, the set of Gödel numbers corresponding to the Turing machines which approximate the computable reals) is not computably enumerable. The real upshot is that the sense in which the number you get from the diagonal argument is "specifiable" is strictly stronger than the sense in which the numbers you listed were "specifiable." This seems to hold even if you move to stronger notions of specifiability, like definability. 
  
-List all the definable reals (for your choice of countable langauge) and run a diagonalization argument. The real you "specify" by this procedure isn't definable. It's no more specifiable than the function enumerating the definable reals. It seems as though we get a specification "for free" by running a diagonalization, but really, we've helped ourselves to the specification at the very beginning of the argument. 
+List all the definable reals (for your choice of countable langauge) and run a diagonalization argument. The real you "specify" by this procedure isn't definable. It's no more specifiable than the function enumerating the definable reals. It seems as though we get a specification "for free" by running a diagonalization, but really, we've helped ourselves to the specification at the very beginning of the argument. So in order to argue that, via the diagonalization argument, we get a specification of a new real number, we would first need a specification of the function enumerating the reals we want to run a diagonalization on. 
 
 
