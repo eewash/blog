@@ -34,9 +34,8 @@ List all the definable reals (for your choice of countable langauge) and run a d
 
 So in order to argue that, via the diagonalization argument, we get a specification of a new real number, we would first need a specification of the function enumerating the reals we want to run a diagonalization on. Just as I haven't named anything when I make my proclamation about Fred being a blue book on the table (since there are two possible options), I haven't specified a real number until I specify which enumeration of the definable/countable reals I want (since there are uncountably many bijections \\(f: \mathbb{N} \to \mathbb{N}\\), there are uncountably many options). If Hugly and Sayward are willing to say that freely adjoining a new constant to the language does not count as naming, they should say the same thing about their "specifiable-by-diagonalization" scheme. 
 
+So how does this relate to quantification over the reals? Hugly and Sayward aim to argue for a substitutional interpretation of the quantifiers, but in a more generalized sense. Taking inspiration from Geach, they claim that the better way to understand substitutional interpretation is not in terms of quantifying over all closed terms currently in the language, but instead, in terms of quantifying over all closed terms we could "sensibly add" to the language. The example Geach gives is of a single grain of sand on the beach. Although our language may not have a name for that particular grain of sand currently, it seems clear that we could go to the beach, pluck up that grain of sand and have a little baptism. 
 
-
-
-
+But this proposal is only partially spelled out. What does it mean to sensibly add a name to the language? Hugly and Sayward aim to exclude instances like proclaiming a blue book on my desk Fred, but by the same token, it seems that they ought to also exclude the currently unspecifiable reals (given existing linguistic capacities). If there is no real restraint on the names we might "sensibly add" to our language, i.e. if we could give them any referent we like, even without picking them out, then substitutional quantification can say just as much as objectual quantification. 
 
 
