@@ -22,4 +22,10 @@ For any reasonable (countable) language of the reals, say \\(L\\) the language o
 
 I think their reply goes seriously wrong. In what sense does a diagonalization argument give a specification of yet another real? [Timothy Gowers](https://twitter.com/wtgowers/status/1168983651415142400) recently repeated this claim, which inspired this post. 
 
-First, note that in an obvious sense, for any real \\(r \in \mathbb{R}\\), there is an expansion of the language \\(L\\) in which \\(r\\) is specifiable: just add a constant and let its interpretation be \\(r\\)! But this is not the kind of specification Hugly and Sayward seem to have in mind. They seem to mean, a specification in some ``natural`` expansion of the language. A typical expansion by constant doesn't work. This claim, to me, seems to rely on a certain intuition about naming. One might think that, if there are two identical blue books on my coffee table and I proclaim: 'Let Fred be the name of a blue book on the table,' I haven't really named anything at all, despite my proclaiming otherwise. 
+First, note that in an obvious sense, for any real \\(r \in \mathbb{R}\\), there is an expansion of the language \\(L\\) in which \\(r\\) is specifiable: just add a constant and let its interpretation be \\(r\\)! But this is not the kind of specification Hugly and Sayward seem to have in mind. They seem to mean, a specification in some `natural` expansion of the language. A typical expansion by constant doesn't work. This claim, to me, seems to rely on a certain intuition about naming. One might think that, if there are two identical blue books on my coffee table and I proclaim: "Let Fred be the name of a blue book on the table," I haven't really named anything at all, despite my proclaiming otherwise. Similarly, when we expand the language by constants, unless we could already give a specification of what was being named, we haven't really introduced a name. 
+
+So what might a specification be? Well, in the case of real numbers, there is an obvious candidate: computability. Call a real number \\(r\\) specifiable just in case it is a computable real. I think that, regardless of whether this notion is the "right" candidate for specifiability, understanding how the diagonalization-specification argument goes wrong in this case highlights how it might go wrong in any other case. 
+
+
+
+
