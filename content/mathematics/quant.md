@@ -10,7 +10,8 @@ Specifically, I've been thinking about two different semantic interpretations of
 
 Substitutional quantification is language-relative. The truth of a given quantified sentence depends on what closed terms are available in the language. One might think this runs into particular problems when we want to talk about the truth of quantified sentences in uncountable structures, like say, the reals. 
 
-For any reasonable (countable) language of the reals, say \\(L\\) the language of ordered rings \\(\{0, 1, -, +, \cdot, <\}\\), there are real numbers in \\(\mathbb{R}\\) which are not definable over \\(L\\). It's easy to see that substitutional quantification and objectual quantification must come apart in such a structure, even if we expand substitutional quantification to allow quantification over all definable singletons. 
+For any reasonable (countable) language of the reals, say \\(L\\) the language of ordered rings \\( \\{0, 1, -, +, \cdot, <\\}\\), there are real numbers in \\(\mathbb{R}\\) which are not definable over \\(L\\). It's easy to see that substitutional quantification and objectual quantification must come apart in such a structure, even if we expand substitutional quantification to allow quantification over all definable elements. 
 
+[Hugly and Sayward](https://www.jstor.org/stable/20117947) think arguments which aim to show that some elements of the reals must be unspecifiable proceed a little too quickly. 
 
 
