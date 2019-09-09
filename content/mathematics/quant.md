@@ -26,6 +26,10 @@ First, note that in an obvious sense, for any real \\(r \in \mathbb{R}\\), there
 
 So what might a specification be? Well, in the case of real numbers, there is an obvious candidate: computability. Call a real number \\(r\\) specifiable just in case it is a computable real. I think that, regardless of whether this notion is the "right" candidate for specifiability, understanding how the diagonalization-specification argument goes wrong in this case highlights how it might go wrong in any other case. 
 
+We can run the standard diagonalization argument on the computable reals. Take an enumeration of the computable reals and change the first decimal place of the first real (by adding 1), and the second decimal place of the second real (by adding 1), and so on. If we perform this procedure for every decimal place, then voila, we have a new real which is not computable, since it does not appear anywhere on the listing. But in some sense, it seems, this real is specifiable. 
+
+This real is only as specifiable as the function we chose to enumerate the computable reals. No computable function could do that, or else the new real we "specified" would be computable. 
+
 
 
 
