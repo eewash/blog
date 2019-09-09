@@ -34,7 +34,7 @@ List all the definable reals (for your choice of countable langauge) and run a d
 
 So in order to argue that, via the diagonalization argument, we get a specification of a new real number, we would first need a specification of the function enumerating the reals we want to run a diagonalization on. Just as I haven't named anything when I make my proclamation about Fred being a blue book on the table (since there are two possible options), I haven't specified a real number until I specify which enumeration of the definable/countable reals I want (since there are uncountably many bijections \\(f: \mathbb{N} \to \mathbb{N}\\), there are uncountably many options).
 
-In the next post, I'll talk more about what this applies to objectual and substitutional quantification. 
+In the next post, I'll talk more about how this applies to objectual and substitutional quantification. 
 
 
 
