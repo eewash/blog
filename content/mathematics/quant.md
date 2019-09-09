@@ -12,6 +12,6 @@ Substitutional quantification is language-relative. The truth of a given quantif
 
 For any reasonable (countable) language of the reals, say \\(L\\) the language of ordered rings \\( \\{0, 1, -, +, \cdot, <\\}\\), there are real numbers in \\(\mathbb{R}\\) which are not definable over \\(L\\). It's easy to see that substitutional quantification and objectual quantification must come apart in such a structure, even if we expand substitutional quantification to allow quantification over all definable elements. 
 
-[Hugly and Sayward](https://www.jstor.org/stable/20117947) think arguments which aim to show that some elements of the reals must be unspecifiable proceed a little too quickly. 
+[Hugly and Sayward](https://www.jstor.org/stable/20117947) think arguments which aim to show that some elements of the reals must be unspecifiable proceed a little too quickly. They accept that, given a finite language, some (indeed, uncountably many) elements of the reals must be undefinable. 
 
 
