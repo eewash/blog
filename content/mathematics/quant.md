@@ -1,5 +1,5 @@
 ---
-title: "Quantification and Definability"
+title: "Diagonalization, Quantification, and Definability"
 date: 2019-09-08T20:12:23-07:00
 draft: false
 ---
@@ -20,4 +20,6 @@ For any reasonable (countable) language of the reals, say \\(L\\) the language o
 
 > So, although we may not possess the means of showing that there are no utterly unspecifiable reals, we also do not have this conception forced upon us by the proofs which serve to show that no language (=possible vehicle of communication) can exhaus- tively specify the reals.
 
-I think their reply goes seriously wrong. 
+I think their reply goes seriously wrong. In what sense does a diagonalization argument give a specification of yet another real? [Timothy Gowers](https://twitter.com/wtgowers/status/1168983651415142400) recently repeated this claim, which inspired this post. 
+
+First, note that in an obvious sense, for any real \\(r \in \mathbb{R}\\), there is an expansion of the language \\(L\\) in which \\(r\\) is specifiable: just add a constant and let its interpretation be \\(r\\)! But this is not the kind of specification Hugly and Sayward seem to have in mind. They seem to mean, a specification in some ``natural`` expansion of the language. A typical expansion by constant doesn't work. This claim, to me, seems to rely on a certain intuition about naming. One might think that, if there are two identical blue books on my coffee table and I proclaim: 'Let Fred be the name of a blue book on the table,' I haven't really named anything at all, despite my proclaiming otherwise. 
