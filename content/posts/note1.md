@@ -4,6 +4,7 @@ date: 2019-05-24T02:21:19-07:00
 draft: false
 description: "My idea for this blog is to collect and catalog things that bring me joy. Why am I doing this?"
 tags: [poetry, Wallace Stevens, beginning]
+draft:
 ---
 
 My idea for this blog is to collect and catalog things that bring me joy. Why am I doing this? Well, my life feels lacking in joy due to some Big Depressed Moods that have been haunting my life the past few weeks. So this is a willful effort to (1) notice the joyous things that I would otherwise dismiss and (2) seek out more things that might bring me joy. Traditional diaries and journals have never worked well for me (I always forget), so for these posts I’ll try to keep them short and simple. What kinds of things will I be cataloguing? Poems, stories, songs, theorems, concepts, jokes, comic panels, whatever. I’m willing to love everything.
