@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ω &#43; 1</title>
+    <link>https://omegaplusone.com/</link>
+    <description>Recent content on ω &#43; 1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Sep 2019 22:48:10 -0700</lastBuildDate>
+    
+	<atom:link href="https://omegaplusone.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Two Ways to Quantify: Substitution reconsidered</title>
+      <link>https://omegaplusone.com/mathematics/quant2/</link>
+      <pubDate>Sun, 08 Sep 2019 22:48:10 -0700</pubDate>
+      
+      <guid>https://omegaplusone.com/mathematics/quant2/</guid>
+      <description>In the last post, I talked about an issue for specifiabilty and quantification. In this post, I want to talk a little more in detail about a more general form of Geach substitutional quantification.</description>
+    </item>
+    
+    <item>
+      <title>Two Ways to Quantify: Substitutionalism</title>
+      <link>https://omegaplusone.com/philosophy/modal-knowledge/</link>
+      <pubDate>Sun, 08 Sep 2019 22:07:52 -0700</pubDate>
+      
+      <guid>https://omegaplusone.com/philosophy/modal-knowledge/</guid>
+      <description>what up</description>
+    </item>
+    
+    <item>
+      <title>Two Ways to Quantify: When can I specify a real number?</title>
+      <link>https://omegaplusone.com/mathematics/quant/</link>
+      <pubDate>Sun, 08 Sep 2019 20:12:23 -0700</pubDate>
+      
+      <guid>https://omegaplusone.com/mathematics/quant/</guid>
+      <description>I&amp;rsquo;ve been thinking about different ways to talk about quantification.
+Specifically, I&amp;rsquo;ve been thinking about two different semantic interpretations of the quantifiers. On the objectual interpretation of the quantifiers, \( \forall x \phi(x) \) is true if for every object \(d\) in the domain, \(\phi[d/x]\) is true. This is usually spelled out in terms of variable assignments to distinguish it more sharply from the other interpretation. On the substitutional interpretation of the quantifiers \( \Pi x \phi(x) \) is true if for every closed term \(t\) of the language, \(\phi[t/x]\) is true.</description>
+    </item>
+    
+    <item>
+      <title>Note 1</title>
+      <link>https://omegaplusone.com/posts/note1/</link>
+      <pubDate>Fri, 24 May 2019 02:21:19 -0700</pubDate>
+      
+      <guid>https://omegaplusone.com/posts/note1/</guid>
+      <description>My idea for this blog is to collect and catalog things that bring me joy. Why am I doing this? Well, my life feels lacking in joy due to some Big Depressed Moods that have been haunting my life the past few weeks. So this is a willful effort to (1) notice the joyous things that I would otherwise dismiss and (2) seek out more things that might bring me joy.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://omegaplusone.com/about/</link>
+      <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
+      
+      <guid>https://omegaplusone.com/about/</guid>
+      <description>This is a blog about mathematics (especially logic, category theory, and algebra), philosophy (especially epistemology, philosophy of science, and metaphysics), and other things that make me happy, like poetry.</description>
+    </item>
+    
+  </channel>
+</rss>

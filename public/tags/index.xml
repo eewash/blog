@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on ω &#43; 1</title>
+    <link>https://omegaplusone.com/tags/</link>
+    <description>Recent content in Tags on ω &#43; 1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 May 2019 02:21:19 -0700</lastBuildDate>
+    
+	<atom:link href="https://omegaplusone.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wallace Stevens</title>
+      <link>https://omegaplusone.com/tags/wallace-stevens/</link>
+      <pubDate>Fri, 24 May 2019 02:21:19 -0700</pubDate>
+      
+      <guid>https://omegaplusone.com/tags/wallace-stevens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beginning</title>
+      <link>https://omegaplusone.com/tags/beginning/</link>
+      <pubDate>Fri, 24 May 2019 02:21:19 -0700</pubDate>
+      
+      <guid>https://omegaplusone.com/tags/beginning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>poetry</title>
+      <link>https://omegaplusone.com/tags/poetry/</link>
+      <pubDate>Fri, 24 May 2019 02:21:19 -0700</pubDate>
+      
+      <guid>https://omegaplusone.com/tags/poetry/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

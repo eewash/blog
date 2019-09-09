@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ω &#43; 1</title>
+    <link>https://omegaplusone.com/posts/</link>
+    <description>Recent content in Posts on ω &#43; 1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 May 2019 02:21:19 -0700</lastBuildDate>
+    
+	<atom:link href="https://omegaplusone.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Note 1</title>
+      <link>https://omegaplusone.com/posts/note1/</link>
+      <pubDate>Fri, 24 May 2019 02:21:19 -0700</pubDate>
+      
+      <guid>https://omegaplusone.com/posts/note1/</guid>
+      <description>My idea for this blog is to collect and catalog things that bring me joy. Why am I doing this? Well, my life feels lacking in joy due to some Big Depressed Moods that have been haunting my life the past few weeks. So this is a willful effort to (1) notice the joyous things that I would otherwise dismiss and (2) seek out more things that might bring me joy.</description>
+    </item>
+    
+  </channel>
+</rss>

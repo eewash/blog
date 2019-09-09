@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>
+					Two Ways to Quantify: When can I specify a real number? | ω &#43; 1
+				</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Two Ways to Quantify: When can I specify a real number?" />
+<meta property="og:description" content="I&rsquo;ve been thinking about different ways to talk about quantification.
+Specifically, I&rsquo;ve been thinking about two different semantic interpretations of the quantifiers. On the objectual interpretation of the quantifiers, \( \forall x \phi(x) \) is true if for every object \(d\) in the domain, \(\phi[d/x]\) is true. This is usually spelled out in terms of variable assignments to distinguish it more sharply from the other interpretation. On the substitutional interpretation of the quantifiers \( \Pi x \phi(x) \) is true if for every closed term \(t\) of the language, \(\phi[t/x]\) is true." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://omegaplusone.com/mathematics/quant/" />
+<meta property="article:published_time" content="2019-09-08T20:12:23-07:00"/>
+<meta property="article:modified_time" content="2019-09-08T20:12:23-07:00"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Two Ways to Quantify: When can I specify a real number?"/>
+<meta name="twitter:description" content="I&rsquo;ve been thinking about different ways to talk about quantification.
+Specifically, I&rsquo;ve been thinking about two different semantic interpretations of the quantifiers. On the objectual interpretation of the quantifiers, \( \forall x \phi(x) \) is true if for every object \(d\) in the domain, \(\phi[d/x]\) is true. This is usually spelled out in terms of variable assignments to distinguish it more sharply from the other interpretation. On the substitutional interpretation of the quantifiers \( \Pi x \phi(x) \) is true if for every closed term \(t\) of the language, \(\phi[t/x]\) is true."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:500,100,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" /><script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script><script src="/js/main.js"></script>
+
+	<link rel="shortcut icon" href="/favicon.png">
+</head>
+
+<body>
+
+	<div class="container wrapper post">
+		<div class="header">
+	<h1 class="site-title">ω &#43; 1</h1>
+	<div class="site-description"><h2>philosophy, mathematics, and other joys</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/eewash" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/evanewashington" title="Twitter"><i data-feather="twitter"></i></a><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">Blog</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+			<li>
+				<a href="/philosophy">Philosophy</a>
+			</li>
+			
+			<li>
+				<a href="/mathematics">Mathematics</a>
+			</li>
+			
+			<li class="right">
+				
+
+<div class="search-container">
+	<form class="search-form" method="get" action="https://duckduckgo.com/" role="search">
+		<input type="search" name="q" class="search-text" placeholder="" title="" size="20" maxlength="128">
+		<input type="hidden" name="sites" value="omegaplusone.com">
+		
+	</form>
+ </div>
+			</li>
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Two Ways to Quantify: When can I specify a real number?</h1>
+			<div class="meta">Sep 8, 2019</div>
+		</div>
+
+		<div class="markdown">
+			<p>I&rsquo;ve been thinking about different ways to talk about quantification.</p>
+
+<p>Specifically, I&rsquo;ve been thinking about two different semantic interpretations of the quantifiers. On the <em>objectual</em> interpretation of the quantifiers, \( \forall x \phi(x) \) is true if for every object \(d\) in the domain, \(\phi[d/x]\) is true. This is usually spelled out in terms of variable assignments to distinguish it more sharply from the other interpretation. On the <em>substitutional</em> interpretation of the quantifiers \( \Pi x \phi(x) \) is true if for every closed term \(t\) of the language, \(\phi[t/x]\) is true.</p>
+
+<p>Substitutional quantification is language-relative. The truth of a given quantified sentence depends on what closed terms are available in the language. One might think this runs into particular problems when we want to talk about the truth of quantified sentences in uncountable structures, like say, the reals.</p>
+
+<p>For any reasonable (countable) language of the reals, say \(L\) the language of ordered rings \( \{0, 1, -, +, \cdot, &lt;\}\), there are real numbers in \(\mathbb{R}\) which are not definable over \(L\). It&rsquo;s easy to see that substitutional quantification and objectual quantification must come apart in such a structure, even if we expand substitutional quantification to allow quantification over all definable elements.</p>
+
+<p><a href="https://www.jstor.org/stable/20117947">Hugly and Sayward</a> think arguments which aim to show that some elements of the reals must be unspecifiable proceed a little too quickly:</p>
+
+<blockquote>
+<p>It is sometimes assumed that since the expressions in a language are only denumerably many, in contrast to the indenumerability of the reals, some reals - indeed indenumerably many of them - are unspecifiable. But the relevant proof establishes only that no function maps the reals into the expressions of a language, from which nothing about specifiability follows. It is worth noting that the diagonal argument constituting the proof itself shows how to construct a specification of yet another real. (See Lorenzen (1971, pp. 35-37) for a suggestive discussion of this point.)</p>
+
+<p>To give an example of this in a minimally complex way, consider the anatagous point for integer sets. Let L be a list of all integer set specifications currently available to us. Then there is this further specification, &lsquo;the integer set including integer n just in case n is not a member of the integer set denoted by the nth listed integer set specification&rsquo;. With this turn of phrase we extend our language to contain a specification of an integer set for which we antecedently possessed no specification (since the assertion that we antecedently possessed this specification leads to a contradiction as in standard diagonalization proofs).</p>
+
+<p>So, although we may not possess the means of showing that there are no utterly unspecifiable reals, we also do not have this conception forced upon us by the proofs which serve to show that no language (=possible vehicle of communication) can exhaus- tively specify the reals.</p>
+</blockquote>
+
+<p>I think their reply goes seriously wrong. In what sense does a diagonalization argument give a specification of yet another real? <a href="https://twitter.com/wtgowers/status/1168983651415142400">Timothy Gowers</a> recently gave another version of this claim, which inspired this post.</p>
+
+<p>First, note that in an obvious sense, for any real \(r \in \mathbb{R}\), there is an expansion of the language \(L\) in which \(r\) is specifiable: just add a constant and let its interpretation be \(r\)! But this is not the kind of specification Hugly and Sayward seem to have in mind. They seem to mean, a specification in some &ldquo;natural&rdquo; expansion of the language. A typical expansion by constant doesn&rsquo;t work. This claim, to me, seems to rely on a certain intuition about naming. One might think that, if there are two identical blue books on my coffee table and I proclaim: &ldquo;Let Fred be the name of a blue book on the table,&rdquo; I haven&rsquo;t really named anything at all, despite my proclaiming otherwise. Similarly, when we expand the language by constants, unless we could already give a specification of what was being named, we haven&rsquo;t really introduced a name.</p>
+
+<p>So what might a specification be? Well, in the case of real numbers, there is an obvious candidate: computability. Call a real number \(r\) specifiable just in case it is a computable real. I think that, regardless of whether this notion is the &ldquo;right&rdquo; candidate for specifiability, understanding how the diagonalization-specification argument goes wrong in this case highlights how it might go wrong in any other case.</p>
+
+<p>We can run the standard diagonalization argument on the computable reals. Take an enumeration of the computable reals and change the first decimal place of the first real (by adding 1), and the second decimal place of the second real (by adding 1), and so on. If we perform this procedure for every decimal place, then voila, we have a new real which is not computable, since it does not appear anywhere on the listing. But in some sense, it seems, this real is specifiable.</p>
+
+<p>This real is only as specifiable as the function we chose to enumerate the computable reals. No computable function could do that, or else the new real we &ldquo;specified&rdquo; would be computable. So the set of computable reals (or rather, the set of Gödel numbers corresponding to the Turing machines which approximate the computable reals) is not computably enumerable. The real upshot is that the sense in which the number you get from the diagonal argument is &ldquo;specifiable&rdquo; is strictly stronger than the sense in which the numbers you listed were &ldquo;specifiable.&rdquo; This seems to hold even if you move to stronger notions of specifiability, like definability.</p>
+
+<p>List all the definable reals (for your choice of countable langauge) and run a diagonalization argument. The real you &ldquo;specify&rdquo; by this procedure isn&rsquo;t definable. It&rsquo;s no more specifiable than the function enumerating the definable reals. It seems as though we get a specification &ldquo;for free&rdquo; by running a diagonalization, but really, we&rsquo;ve helped ourselves to the specification at the very beginning of the argument.</p>
+
+<p>So in order to argue that, via the diagonalization argument, we get a specification of a new real number, we would first need a specification of the function enumerating the reals we want to run a diagonalization on. Just as I haven&rsquo;t named anything when I make my proclamation about Fred being a blue book on the table (since there are two possible options), I haven&rsquo;t specified a real number until I specify which enumeration of the definable/countable reals I want (since there are uncountably many bijections \(f: \mathbb{N} \to \mathbb{N}\), there are uncountably many options). If Hugly and Sayward are willing to say that freely adjoining a new constant to the language does not count as naming, they should say the same thing about their &ldquo;specifiable-by-diagonalization&rdquo; scheme.</p>
+
+<p>So how does this relate to quantification over the reals? Hugly and Sayward aim to argue for a substitutional interpretation of the quantifiers, but in a more generalized sense. Taking inspiration from Geach, they claim that the better way to understand substitutional interpretation is not in terms of quantifying over all closed terms currently in the language, but instead, in terms of quantifying over all closed terms we could &ldquo;sensibly add&rdquo; to the language. The example Geach gives is of a single grain of sand on the beach. Although our language may not have a name for that particular grain of sand currently, it seems clear that we could go to the beach, pluck up that grain of sand and have a little baptism.</p>
+
+<p>But this proposal is only partially spelled out. What does it mean to sensibly add a name to the language? Hugly and Sayward aim to exclude instances like proclaiming a blue book on my desk Fred, but by the same token, it seems that they ought to also exclude the currently unspecifiable reals (given existing linguistic capacities). If there is no real restraint on the names we might &ldquo;sensibly add&rdquo; to our language, i.e. if we could give them any referent we like, even without picking them out, then substitutional quantification can say just as much as objectual quantification.</p>
+
+		</div>
+
+		<div class="tags">
+			
+
+
+		</div>
+
+		
+	</div>
+	
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<div class="footer wrapper">
+	<nav class="nav">
+		<div> Copyright Evan Washington | Built with <a href="gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Philosophy on ω &#43; 1</title>
+    <link>https://omegaplusone.com/philosophy/</link>
+    <description>Recent content in Philosophy on ω &#43; 1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Sep 2019 22:07:52 -0700</lastBuildDate>
+    
+	<atom:link href="https://omegaplusone.com/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Two Ways to Quantify: Substitutionalism</title>
+      <link>https://omegaplusone.com/philosophy/modal-knowledge/</link>
+      <pubDate>Sun, 08 Sep 2019 22:07:52 -0700</pubDate>
+      
+      <guid>https://omegaplusone.com/philosophy/modal-knowledge/</guid>
+      <description>what up</description>
+    </item>
+    
+  </channel>
+</rss>

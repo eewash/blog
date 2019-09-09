@@ -1,0 +1,342 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400|Alegreya:400,400i,700|Ubuntu:500);
+
+:root { 
+    --main-color: blue; 
+    --secondary-color: black;
+    --select-color: yellow;
+    --body-font: "Lato", "PT sans", sans-serif;
+    --heading-font: "Lato", "alegreya sans", fira sans,sans-serif; 
+    --quote-font: "";
+    --button-color: var(--select-color);
+    --button-base: var(--secondary-color);
+}
+
+body {
+    font-family: var(--body-font);
+    font-weight: 100;
+	color: #000;
+	line-height: 1.6;
+	font-size: 18px;
+}
+
+html,input,select,textarea {
+    color: #000
+}
+
+button {
+    background-image: none;
+    background-color: var(--button-base);
+    font-family: PT sans;
+    color: black;
+}
+
+button:hover {
+    background-color: var(--button-color);
+}
+
+::-moz-selection {
+    background: #000;
+    text-shadow: none;
+}
+
+::selection {
+    background: var(--select-color);
+    text-shadow: none;
+    color: inherit;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1rem 0;
+    padding: 0
+}
+
+audio,canvas,img,video {
+    width: 100%;
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+textarea {
+    resize: vertical
+}
+
+blockquote {
+    margin-left: 1rem;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-family: Alegreya Sans, bitstream charter, serif;
+    border-left: 3px solid;
+    border-color: var(--main-color);
+    padding-left: 20px
+}
+
+blockquote cite {
+    font-size: 70%;
+    font-style: normal;
+    opacity: .8;
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: none
+}
+
+button:a {
+    color: black;
+}
+
+a:hover {
+    background-color: var(--select-color);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    line-height: 1.2;
+    color: #000;
+    font-weight: 800
+}
+
+h1 {
+    font-size: 2.75rem
+}
+
+h2 {
+    font-size: 2rem
+}
+
+h3 {
+    font-size: 1.6rem
+}
+
+h4 {
+    font-size: 1.2rem
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 1rem
+}
+
+h6 {
+    font-weight: 300;
+    font-size: .9rem
+}
+
+.container {
+    max-width: 800px
+}
+
+ul {
+	padding-left: 15px;
+}
+
+ul.flat {
+    margin: 0;
+	padding: 0;
+}
+
+ul.flat li {
+    display: inline-block;
+    list-style: none;
+	margin-left: 0
+}
+
+ul.flat li.right {
+    float: right;
+}
+
+.prevent-collapse {
+    min-height: .1rem
+}
+
+.page-title {
+    margin: 0
+}
+
+.smaller {
+    font-size: 70%
+}
+
+ul {
+    list-style: disc inside
+}
+
+.post ul li {
+	margin-bottom: 10px;
+}
+
+.highlight pre {
+    margin-bottom: 0;
+	margin-top: 0;
+	padding: 20px;
+	background-color: #FAFAFA !important;
+}
+
+.highlight {
+    background: 0 0
+}
+
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.container {
+	margin-top: 50px;
+}
+
+.header {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.header h1,
+.header h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+.header h2 {
+    font-size: 1.125rem;
+}
+
+.header nav {
+	margin-top: 20px;
+	border-top: 1px solid #f4f4f4;
+}
+
+.header nav ul,
+.header nav li {
+	margin: 0;
+}
+
+.header nav ul.flat {
+	padding: 0;
+}
+
+.header nav ul.flat li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.header .site-description {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header .site-description nav {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.header .site-description nav ul svg {
+	max-height: 15px;
+}
+
+.section .section-header {
+	font-size: 0.75rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #999;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+
+.recent-posts .posts .post {
+	margin-bottom: 30px;
+}
+
+.recent-posts .posts .post .meta,
+.post .post-header .meta,
+.list .posts .post .meta {
+	font-size: 0.725rem;
+	color: #999;
+	margin-bottom: 4px;
+}
+
+.post .post-header {
+	margin-bottom: 30px;
+}
+
+.post .post-header .title {
+	margin: 0;
+}
+
+.post .post-header .meta {
+	padding-left: 5px;
+	margin-top: 10px;
+}
+
+.list .posts .post .meta {
+	margin-bottom: 0;
+	margin-left: 5px;
+}
+
+.footer {
+	text-align: right;
+	font-size: 0.75em;
+	color: #999;
+	border-top: 1px solid #f4f4f4;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.page-title {
+    margin-bottom: 0;
+}
+
+.tag-cloud {
+    margin-top: 20px;
+}
+
+.tag-cloud a {
+    margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+	body {
+		padding: 20px;
+	}
+
+	h1 {
+		font-size: 2rem
+	}
+
+	h2 {
+		font-size: 1.6rem
+	}
+
+	h3 {
+		font-size: 1.2rem
+	}
+
+	h4 {
+		font-size: 1rem
+	}
+
+	.container {
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 480px) {
+	body {
+		font-size: 14px;
+	}
+}
