@@ -1,7 +1,7 @@
 ---
 title: "Diagonalization, Quantification, and Definability"
 date: 2019-09-08T20:12:23-07:00
-draft: false
+draft: true
 ---
 
 I've been thinking about different ways to talk about quantification. 
@@ -28,7 +28,7 @@ So what might a specification be? Well, in the case of real numbers, there is an
 
 We can run the standard diagonalization argument on the computable reals. Take an enumeration of the computable reals and change the first decimal place of the first real (by adding 1), and the second decimal place of the second real (by adding 1), and so on. If we perform this procedure for every decimal place, then voila, we have a new real which is not computable, since it does not appear anywhere on the listing. But in some sense, it seems, this real is specifiable. 
 
-This real is only as specifiable as the function we chose to enumerate the computable reals. No computable function could do that, or else the new real we "specified" would be computable. 
+This real is only as specifiable as the function we chose to enumerate the computable reals. No computable function could do that, or else the new real we "specified" would be computable. So the set of computable reals (or rather, the set of Gödel numbers corresponding to the Turing machines which approximate the computable reals) is not computably enumerable. 
 
 
 
