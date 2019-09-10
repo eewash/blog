@@ -2,6 +2,7 @@
 title: "Two Ways to Quantify: When can I specify a real number?"
 date: 2019-09-08T20:12:23-07:00
 draft: false
+tags: [quantify]
 ---
 
 I've been thinking about different ways to talk about quantification. 

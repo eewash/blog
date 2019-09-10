@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400|Alegreya:400,400i,700|Ubuntu:500);
 
 :root { 
-    --main-color: blue; 
+    --main-color: #3434eb; 
     --secondary-color: black;
     --select-color: yellow;
     --body-font: "Lato", "PT sans", sans-serif;
     --heading-font: "Lato", "alegreya sans", fira sans,sans-serif; 
     --quote-font: "";
     --button-color: var(--select-color);
-    --button-base: var(--secondary-color);
+    --button-base: var(white);
 }
 
 body {

@@ -9,8 +9,20 @@
   </url>
   
   <url>
+    <loc>https://omegaplusone.com/tags/</loc>
+    <lastmod>2019-09-08T22:48:10-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://omegaplusone.com/mathematics/quant2/</loc>
     <lastmod>2019-09-08T22:48:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://omegaplusone.com/tags/quantify/</loc>
+    <lastmod>2019-09-08T22:48:10-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -26,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://omegaplusone.com/philosophy/modal-knowledge/</loc>
+    <loc>https://omegaplusone.com/philosophy/quant3/</loc>
     <lastmod>2019-09-08T22:07:52-07:00</lastmod>
   </url>
   
@@ -42,12 +54,6 @@
   
   <url>
     <loc>https://omegaplusone.com/posts/</loc>
-    <lastmod>2019-05-24T02:21:19-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://omegaplusone.com/tags/</loc>
     <lastmod>2019-05-24T02:21:19-07:00</lastmod>
     <priority>0</priority>
   </url>
