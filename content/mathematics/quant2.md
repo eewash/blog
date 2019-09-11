@@ -1,7 +1,7 @@
 ---
 title: "Two Ways to Quantify: Substitution reconsidered"
 date: 2019-09-08T22:48:10-07:00
-draft: false
+draft: true
 tags: [quantify]
 ---
 
