@@ -1,3 +1,3 @@
-[submodule "themes/alpha"]
-	path = themes/alpha
-	url = https://github.com/eewash/alpha
+[submodule "themes/blog-theme"]
+	path = themes/blog-theme
+	url = https://github.com/eewash/blog-theme
